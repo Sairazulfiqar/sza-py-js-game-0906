@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juego tres en ralla</title>
+    <link rel="stylesheet" href="/sza-py-js-game-0906/style.css">
+</head>
+<body>
+
+    <h1> Juego tres en raya</h1>
+    <form name="formulario" onsubmit="return validation()" action="confirmation.php" 
+    method="post">
+
+    <div class="row">
+        <label for="Jugador1">Jugador1:</label>
+        <input type="text" onkeyup="validarJugador1()"  id="jugador1" placeholder="Introduce nombre" class="jugador1" name="jugador1">
+    </div>
+
+    <div class="row">
+        <label for="Jugador2">Jugador2:</label>
+        <input type="text" onkeyup="validarJugador2()"  id="jugador2" placeholder="Introduce nombre" class="jugador2" name="jugador2">
+    </div>
+
+    <input type="submit" value="Iniciar">
+
+    </form>
+    <div id="container" class="container"> 
+        <button class="btn" onclick="Buttoncolor()"></button>
+        <button class="btn" onclick="Buttoncolor()"></button>
+        <button class="btn" onclick="Buttoncolor()"></button>
+        <button class="btn"></button>
+        <button class="btn"></button>
+        <button class="btn" ></button>
+        <button class="btn"></button>
+        <button class="btn"></button>
+        <button class="btn"></button>
+    </div>
+
+    <script src="/sza-py-js-game-0906/script.js"></script>
+</body>
+</html>
