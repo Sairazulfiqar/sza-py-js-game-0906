@@ -14,30 +14,37 @@
     method="post">
 
     <div class="row">
-        <label for="Jugador1">Jugador1:</label>
+        <label for="Jugador1"> <b> Jugador1:</b></label>
         <input type="text" onkeyup="validarJugador1()"  id="jugador1" placeholder="Introduce nombre" class="jugador1" name="jugador1">
+        <div id="errorj1" class="error"></div>
     </div>
+    <br>
 
     <div class="row">
-        <label for="Jugador2">Jugador2:</label>
+        <label for="Jugador2"> <b> Jugador2:</b> </label>
         <input type="text" onkeyup="validarJugador2()"  id="jugador2" placeholder="Introduce nombre" class="jugador2" name="jugador2">
+        <div id="errorj2" class="error"> </div>
     </div>
-
+    <br>
     <input type="submit" value="Iniciar">
 
     </form>
+
     <div id="container" class="container"> 
-        <button class="btn" onclick="Buttoncolor()"></button>
-        <button class="btn" onclick="Buttoncolor()"></button>
-        <button class="btn" onclick="Buttoncolor()"></button>
-        <button class="btn"></button>
-        <button class="btn"></button>
-        <button class="btn" ></button>
-        <button class="btn"></button>
-        <button class="btn"></button>
-        <button class="btn"></button>
+
+            <button id="btn0" class="btn" onclick="Btncolor()"></button>
+            <button id="btn1" class="btn" onclick="Btncolor()"></button>
+            <button id="btn2" class="btn" onclick="Btncolor()"></button>
+            <button id="btn3" class="btn" onclick="Btncolor()"></button>
+            <button id="btn4" class="btn" onclick="Btncolor()"></button>
+            <button id="btn5" class="btn" onclick="Btncolor()"></button>
+            <button id="btn6" class="btn" onclick="Btncolor()"></button>
+            <button id="btn7" class="btn" onclick="Btncolor()"></button>
+            <button id="btn8" class="btn" onclick="Btncolor()"></button>
+
     </div>
 
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
     <script src="/sza-py-js-game-0906/script.js"></script>
 </body>
 </html>

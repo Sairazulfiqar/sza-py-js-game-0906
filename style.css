@@ -2,9 +2,16 @@ body {
     background-color: white
 }
 
+.error {
+    color: red;
+    font-size: 75%;
+}
+
 .btn{
+    display: grid;
     width: 200px;
     height: 200px;
+
 
 }
 
